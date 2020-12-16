@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+ .maincontent {
+   background-color: #E6EAF1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 100%;
+   width: 100%;
+ }
+.results .datafetch{
+  background-color: white !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin-top:2rem;a
+   width: 500px;
+   min-height: 400px;
+   padding: 2rem 1rem;
 }
+ form {
+   background-color: white;
+   padding: 4rem .5rem;
+   width: 500px;
+   min-height: 150px;
+   margin-top: 10vh;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .inputbox {
+   display: block;
+   width: 98%;
+   margin: 0 auto;
+   height: calc(.1em + 1.05rem + 2px);
+   padding: .875rem .25rem;
+   font-size: .875rem;
+   font-weight: 400;
+   line-height: 1;
+   color: #69707a;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid #c5ccd6;
+   border-radius: .35rem;
+   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .submitbtn {
+   display: inline-block;
+   font-weight: 400;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   border: 1px solid transparent;
+   padding: .375rem .75rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   border-radius: .25rem;
+   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+   color: #212529;
+   background-color: #ffc107; 
+   width: 100%;
+   margin-top: 1rem;
+ }
